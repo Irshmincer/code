@@ -1,0 +1,11 @@
+<div fxFlex fxLayout="column">
+    <h2 class="h2">All Series</h2>
+    <div fxLayout="row wrap">
+        <div fxFlex="25" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100" fxLayout="column"
+        *ngFor="let seriess of series"style="padding: 5px;">
+   <img mat-card-image src="{{seriess.thumbnail.path}}.{{seriess.thumbnail.extension}}" alt="{{seriess.name}}">
+   <p>{{seriess.title}}</p>
+   </div>
+   </div>
+   
+</div>

@@ -1,0 +1,61 @@
+img{
+    width:100px;
+    
+}
+div{
+    width: 100%;
+   // position: fixed;
+    padding:  4px 20px 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 37, 63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul{
+    color:white;
+    text-transform:uppercase;
+    list-style:none;
+    display:flex;
+
+}
+/*li{
+    padding:5px 20px;
+    font-size:16px;
+    border-radius:2px;
+    border-bottom:4px solid rgb(1 , 180, 228);
+}
+*/
+
+li{
+    font-family: sans-serif;
+    margin-top  : 50px;
+}
+
+.home {
+    padding:5px 20px;
+    font-size:16px;
+    border-radius:2px;
+  //  border-bottom:4px solid rgb(1 , 180, 228);
+}
+
+.characters{
+    padding:5px 20px;
+    font-size:16px;
+    border-radius:2px;
+  //  border-bottom:4px solid rgb(1 , 180, 228);
+
+}
+.series{
+    padding:5px 20px;
+    font-size:16px;
+    border-radius:2px;
+  //  border-bottom:4px solid rgb(1 , 180, 228);
+
+}
+.comics{
+    padding:5px 20px;
+    font-size:16px;
+    border-radius:2px;
+  //  border-bottom:4px solid rgb(1 , 180, 228);
+}
